@@ -1,26 +1,26 @@
 class Lazygaze < Formula
   desc "AI-powered git diff review in your terminal."
   homepage "https://github.com/benstroud/lazygaze"
-  version "20260310.1.beta"
+  version "20260310.2.beta"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/benstroud/lazygaze/releases/download/20260310.1.beta/lazygaze-macos-universal.tar.gz"
-      sha256 "953d419dceb6bb60855c7bf3f5913146ac449583abe96206135b7f7bde1658c1"
+      url "https://github.com/benstroud/lazygaze/releases/download/20260310.2.beta/lazygaze-macos-universal.tar.gz"
+      sha256 "dc258e6dc958ecd343051c9427b2ce31dde667c8d28f2f4295122547c79588b6"
     else
-      url "https://github.com/benstroud/lazygaze/releases/download/20260310.1.beta/lazygaze-macos-universal.tar.gz"
-      sha256 "953d419dceb6bb60855c7bf3f5913146ac449583abe96206135b7f7bde1658c1"
+      url "https://github.com/benstroud/lazygaze/releases/download/20260310.2.beta/lazygaze-macos-universal.tar.gz"
+      sha256 "dc258e6dc958ecd343051c9427b2ce31dde667c8d28f2f4295122547c79588b6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/benstroud/lazygaze/releases/download/20260310.1.beta/lazygaze-macos-universal.tar.gz"
-      sha256 "953d419dceb6bb60855c7bf3f5913146ac449583abe96206135b7f7bde1658c1"
+      url "https://github.com/benstroud/lazygaze/releases/download/20260310.2.beta/lazygaze-macos-universal.tar.gz"
+      sha256 "dc258e6dc958ecd343051c9427b2ce31dde667c8d28f2f4295122547c79588b6"
     else
-      url "https://github.com/benstroud/lazygaze/releases/download/20260310.1.beta/lazygaze-macos-universal.tar.gz"
-      sha256 "953d419dceb6bb60855c7bf3f5913146ac449583abe96206135b7f7bde1658c1"
+      url "https://github.com/benstroud/lazygaze/releases/download/20260310.2.beta/lazygaze-macos-universal.tar.gz"
+      sha256 "dc258e6dc958ecd343051c9427b2ce31dde667c8d28f2f4295122547c79588b6"
     end
   end
 
